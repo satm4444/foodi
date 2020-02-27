@@ -59,7 +59,7 @@ flutter:
   fonts:
     - family: Raleway
       fonts:
-        - asset: asstes/fonts/Raleway-Regular.ttf
+        - asset: assetes/fonts/Raleway-Regular.ttf
           weight: 600
           
     - family: Roboto
