@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:foodi/screens/bottom_bar_screen.dart';
 import 'package:foodi/screens/category_meal_screen.dart';
 import 'package:foodi/screens/category_overview_screen.dart';
+import 'package:foodi/screens/filter_screen.dart';
 import 'package:foodi/screens/meals_detailed_screen.dart';
 
 void main(List<String> args) {
@@ -28,10 +30,12 @@ class MyApp extends StatelessWidget {
               title: TextStyle(fontSize: 24, fontFamily: "Roboto"),
             ),
       ),
-      home: CategoryOverviewScreen(),
+      home: BottomBarScreen(),
       routes: {
         CategoryMealScreen.routeName: (ctx) => CategoryMealScreen(),
         MealDetailScreen.routeName: (ctx) => MealDetailScreen(),
+        BottomBarScreen.routeName: (ctx) => BottomBarScreen(),
+        FilterScreen.routeName: (ctx) => FilterScreen(),
       },
       onUnknownRoute: (settings) {
         return MaterialPageRoute(builder: (ctx) => CategoryOverviewScreen());

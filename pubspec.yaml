@@ -59,13 +59,11 @@ flutter:
   fonts:
     - family: Raleway
       fonts:
-        - asset: assetes/fonts/Raleway-Regular.ttf
-          weight: 600
-          
+        - asset: assets/Caveat-Regular.ttf
+         
     - family: Roboto
       fonts:
-        - asset: assets/fonts/RobotoCondensed-Light.ttf
-        
+        - asset: assets/RobotoCondensed-Light.ttf
           weight: 600
   #
   # For details regarding fonts from package dependencies,
